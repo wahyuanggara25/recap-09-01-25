@@ -4,6 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document wahyu</title>
+
+    <!-- internal css -->
+    <style>
+      header {
+        background-color: blue;
+        color: white;
+        text-align: center;
+        padding: 10px;
+      }
+
+      .main-header {
+        background-color: green;
+        color: white;
+        text-align: center;
+        padding: 10px;
+      }
+    </style>
+
+    <!-- external css -->
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+
+  <body>
+    <header>
+      <h1>title</h1>
+    </header>
+
+    <main>
+      <header class="main-header">
+        <h2>title</h2>
+      </header>
+
+      <header class="main-header" id="unique-main-header">
+        <h2>title</h2>
+      </header>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas doloremque neque, ipsa sed corrupti quae facilis numquam vitae laudantium odit officiis vel velit qui adipisci dolore aliquid quasi tempora architecto!</p>
+    </main>
+
+    <!-- inline css -->
+    <footer style="background-color: red">
+      <span>title</span>
+    </footer>
+  </body>
 </html>
